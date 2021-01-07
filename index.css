@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Mali&family=Redressed&display=swap");
+
+/* font-family: 'Redressed', cursive; */
+/* font-family: 'Mali', cursive; */
+.wrapper {
+  display: flex;
+  height: 185vh;
+  width: 70%;
+  border: 1px solid blue;
+  margin-left: 200px;
+  font-family: "Mali", cursive;
+  font-size: 14px;
+}
+.left {
+  width: 32%;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: #2b3a50;
+  color: white;
+}
+
+.left img {
+  width: 80%;
+  margin-top: 40px;
+  border-radius: 40%;
+}
+
+.about_me {
+  margin-top: 50px;
+  margin-left: 30px;
+  text-align: left;
+  padding: 2px;
+}
+.about_me h2 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.contact {
+  margin-top: 50px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.contact h2 {
+  text-decoration: underline;
+}
+
+.contact .li_wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5px;
+  margin-left: -10px;
+}
+
+.contact .li_wrap .icon {
+  width: 50px;
+  height: 30px;
+  background: transparent;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 15px; */
+}
+
+.contact .li_wrap .text {
+  width: calc(100% - 50px);
+  word-break: break-word;
+  color: #fff;
+}
+
+.interests {
+  margin-top: 50px;
+  margin-left: 30px;
+  text-align: left;
+  padding: 2px;
+}
+.interests h2 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.interests ul li {
+  margin: 3px;
+  padding: 2px;
+}
+.right {
+  width: 68%;
+  text-align: center;
+}
+
+.name {
+  margin-top: 15px;
+  font-size: 50px;
+}
+
+.Job_title {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.Objective {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.objective_para {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.career {
+  margin-top: 10px;
+  display: flex;
+  /* border: 1px solid brown; */
+  height: 40vh;
+  margin-left: 30px;
+}
+.Education {
+  width: 55%;
+  text-align: left;
+
+  /* border: 1px solid yellowgreen; */
+}
+.dummy {
+  width: 5%;
+}
+.Education h2 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.Proficiency {
+  width: 37%;
+  text-align: left;
+  /* border: 1px solid hotpink; */
+}
+.dummy1 {
+  width: 3%;
+}
+.Proficiency h2 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.Experience {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 65vh;
+  /* border: 1px solid darkorange; */
+  text-align: left;
+}
+
+.Experience h2 {
+  text-decoration: underline;
+}
+
+.skills_head {
+  margin-left: 30px;
+  height: 40vh;
+  /* border: 1px solid lawngreen; */
+  display: flex;
+}
+.skills_head h2 {
+  text-decoration: underline;
+}
+.Skills_list1 {
+  margin-top: 35px;
+  text-align: left;
+  width: 50%;
+  /* border: 1px solid blueviolet; */
+}
+.Skills_list2 {
+  margin-top: 35px;
+  text-align: left;
+  width: 50%;
+  /* border: 1px solid blueviolet; */
+}
+
+.container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #2b3a50;
+}
+.css {
+  width: 80%;
+  background-color: #2b3a50;
+}
+.js {
+  width: 65%;
+  background-color: #2b3a50;
+}
+.BootStrap {
+  width: 60%;
+  background-color: #2b3a50;
+}
+
+.ReactJs {
+  width: 60%;
+  background-color: #2b3a50;
+}
+
+.NodeJs {
+  width: 60%;
+  background-color: #2b3a50;
+}
+
+.Express {
+  width: 60%;
+  background-color: #2b3a50;
+}
+
+.MongoDB {
+  width: 60%;
+  background-color: #2b3a50;
+}
